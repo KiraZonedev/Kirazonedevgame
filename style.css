@@ -8,49 +8,47 @@ body {
 .game {
     position: relative;
     background-color: #f5deb3; /* Màu nền da */
-    width: 1370px;
+    width: 1365px;
     height: 433px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
   }
   
   .player {
     position: absolute;
-    width: 20px;
-    height: 20px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
-    background-color: red;
+    /* background-color: red; */
   }
   
   #player1 {
     top: 0;
     left: 0;
-    height: 30px;
-    width: 30px;
     background-color: red;
   }
   
   #player2 {
     top: 2cm;
     left: 0;
-    height: 30px;
-    width: 30px;
     background-color: green;
   }
   
   #player3 {
     top: 4cm;
     left: 0;
-    height: 30px;
-    width: 30px;
     background-color: yellow;
   }
   
   #player4 {
     top: 6cm;
     left: 0;
-    height: 30px;
-    width: 30px;
     background-color: purple;
+  }
+
+  #player5 {
+    top: 8cm;
+    left: 0;
+    background-color: aqua;
   }
   
   .buttons {
@@ -60,5 +58,9 @@ body {
   button {
     font-size: 20px;
     margin-right: 10px;
+  }
+  
+  .container {
+    overflow-x: hidden;
   }
   

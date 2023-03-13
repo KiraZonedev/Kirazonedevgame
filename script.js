@@ -2,7 +2,8 @@ const players = [
     document.getElementById("player1"),
     document.getElementById("player2"),
     document.getElementById("player3"),
-    document.getElementById("player4")
+    document.getElementById("player4"),
+    document.getElementById("player5")
   ];
   
   const startButton = document.getElementById("startButton");
